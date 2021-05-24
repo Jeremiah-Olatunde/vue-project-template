@@ -1,0 +1,14 @@
+{
+	"plugins" : [],
+	"presets" : [
+		["@babel/preset-env", {
+			"targets" : { "chrome" : "51", "ie" : "9" },
+			"useBuiltIns" : "usage",
+			"corejs" : { "proposals" : true, "version" : "3.12.1" },
+			"shippedProposals" : true
+		}],
+	],
+	"sourceMaps" : true,
+	"include" : ["./src"],
+	"exclude" : ["./node_modules"]
+}
